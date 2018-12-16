@@ -16,6 +16,7 @@
             width: 60%;
             margin: 0 auto;
         }
+        
     </style>
 <body>
 
