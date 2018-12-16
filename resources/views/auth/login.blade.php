@@ -3,9 +3,23 @@
 <head>
 <title>Look at me Login</title>
 </head>
+    <style>
+        body {
+            font-family:Arial;
+        }
+        
+        #loginForm {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            width: 60%;
+            margin: 0 auto;
+        }
+    </style>
 <body>
 
-{{ Form::open(array('url' => 'admin')) }}
+{{ Form::open(array('url' => 'admin','id' => 'loginForm')) }}
 <h1>Login</h1>
 
 <!-- if there are login errors, show them here -->
