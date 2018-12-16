@@ -6,7 +6,8 @@ This application is simple shorten url system using Laravel Framework 5.7.17, th
 1. you need to download laravel using this link <a href="https://laravel.com/docs/5.7#installation">Laravel install</a>
 2. creat database on your local machine with database name "short_urls"
 3. import using "short_urls.sql" files
-4. run your laravel with php artisan serve
+4. rename file ".env.example" to ".env" or you can create .env file for database connection that require to you environment
+5. run your laravel with php artisan serve
 
 ## Access the main website
 You can access the main website using this URL <a href="http://127.0.0.1:8000">http://127.0.0.1:8000</a>
